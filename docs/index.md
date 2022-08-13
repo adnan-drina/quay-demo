@@ -16,9 +16,9 @@ With Red Hat Quay, you can:
 - Easily build and deploy new containers. Red Hat Quay automates your container builds with integration to GitHub, Bitbucket, and more. Robot accounts allow for automatic software deployments.
 - Scan containers to provide security. Red Hat Quay scans your containers for vulnerabilities, giving you visibility into known issues and how to fix them.
 
-In our walkthrough, we'll cover some of the key features of Quay used by developers when working with containers. We'll learn how to:
+In our walkthrough, we'll cover some key features of Quay used by developers when working with containers. We'll learn how to:
 
-1. Build your first container image
-2. Scan your container image for vulnerabilities
-3. Mirror container images from external sources
-4. Distribute your application using Helm
+1. [Build your first container image](01-build-your-first-container-image.md)
+2. [Scan your container image for vulnerabilities](02-scan-your-container-image-for-vulnerabilities.md)
+3. [Mirror container images from external sources](03-mirror-container-images-from-external-sources.md)
+4. [Distribute your application using Helm](04-distribute-your-application-using-Helm.md)
