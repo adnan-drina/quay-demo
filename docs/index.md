@@ -28,8 +28,8 @@ Red Hat Quay is a private container registry that stores, builds, and deploys co
 
 Our walkthrough will cover some of the features developers use when working with containers. We'll learn how to:
 
-1. [Build your first container image and store it in the registry](01-build-your-first-container-image.md)
-2. [Scan your container image for vulnerabilities](02-scan-your-container-image-for-vulnerabilities.md)
-3. [Mirror container images from external sources](03-mirror-container-images-from-external-sources.md)
-4. [Distribute your application using Helm](04-distribute-your-application-using-Helm.md)
+1. [Build your first container image and store it in the registry](walkthrough/01-build-your-first-container-image.md)
+2. [Scan your container image for vulnerabilities](walkthrough/02-scan-your-container-image-for-vulnerabilities.md)
+3. [Mirror container images from external sources](walkthrough/03-mirror-container-images-from-external-sources.md)
+4. [Distribute your application using Helm](walkthrough/04-distribute-your-application-using-Helm.md)
 
