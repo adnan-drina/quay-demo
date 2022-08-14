@@ -1,4 +1,4 @@
-## Welcome to the Red Hat Quay Container Registry demo walkthrough page!
+## Red Hat Quay Container Registry demo walkthrough
 
 **This is not an official Red Hat product demo. For the official product resources, please see [Red Hat Quay](https://access.redhat.com/products/red-hat-quay)**
 
@@ -10,21 +10,7 @@ For this walkthrough, we assume that our users have access to a pre-provisioned 
 
 Red Hat Quay is a private container registry that stores, builds, and deploys container images. It analyzes your images for security vulnerabilities, identifying potential issues that can help you mitigate security risks. Additionally, it delivers georeplication and BitTorrent distribution to increase performance across distributed development sites and increase resiliency and redundancy for disaster recovery.
 
-![Quay Key Features](graph/quay-key-features.png)
-
-[//]: # (Red Hat Quay key features:)
-
-[//]: # (- SCALABILITY: Quay is designed according to Microservices architecture and is massively scalable.)
-
-[//]: # (- SECURITY: Quay supports scanning container images for known vulnerabilities and comes with components such as logging, auditing, notifications and alerting.)
-
-[//]: # (- BUILD AUTOMATION: Quay supports building Dockerfiles using a set of worker nodes and, with the use of build triggers, such as GitHub webhooks, it can automatically build new container image versions.)
-
-[//]: # (- CONTENT DISTRIBUTION: Quay supports replication of your images across geographies bringing content closer to the users and maximizing pull performance.)
-
-[//]: # (- INTEGRATION: Quay supports a list of features that allow tight integration with the rest of the operational landscape.)
-
-[//]: # (- ACCESS CONTROL: Quay supports rich Access Control with fine-grade RBAC, Organizations and Teams. It also can be integrated with different Authentication Providers.)
+![Quay Key Features](docs/graph/quay-key-features.png)
 
 Our walkthrough will cover some of the features developers use when working with containers. We'll learn how to:
 
@@ -33,3 +19,4 @@ Our walkthrough will cover some of the features developers use when working with
 3. [Mirror container images from external sources](walkthrough/03-mirror-container-images-from-external-sources.md)
 4. [Distribute your application using Helm](walkthrough/04-distribute-your-application-using-Helm.md)
 
+Walkthrough is hosted on [GitHub Pages](https://adnan-drina.github.io/quay-demo/)
