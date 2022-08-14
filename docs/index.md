@@ -4,7 +4,8 @@
 
 This developer-focused walkthrough provides a simple guide for using the Red Hat Quay Container Registry when working with containerized applications. The walkthrough will not cover the Red Hat Quay installation and configuration process. For more information on Red Hat Quay installation, please see [Batteries-Included Quay Install on Red Hat OpenShift](https://www.youtube.com/watch?v=1_6jLGF5ByE)
 
-For this walkthrough, we assume that our users have access to a pre-provisioned instance of Quay, have cloned our [demo code](https://github.com/adnan-drina/quay-demo), and can successfully execute the [setup scripts](00-setup-demo-environment.md).
+For this walkthrough, we assume that our users have access to a pre-provisioned instance of Quay and have an existing or can create a new Quay user account.
+
 ### Red Hat Quay: A private container registry for distributed, secure development
 
 Red Hat Quay is a private container registry that stores, builds, and deploys container images. It analyzes your images for security vulnerabilities, identifying potential issues that can help you mitigate security risks. Additionally, it delivers georeplication and BitTorrent distribution to increase performance across distributed development sites and increase resiliency and redundancy for disaster recovery.
@@ -32,17 +33,3 @@ Our walkthrough will cover some of the features developers use when working with
 3. [Mirror container images from external sources](03-mirror-container-images-from-external-sources.md)
 4. [Distribute your application using Helm](04-distribute-your-application-using-Helm.md)
 
-But before diving deeper into these topics, we must set up our environment first.
-
-### Setup demo environment
-
-Before we can work on our walkthrough demos, we'll have to configure a few things. The complete setup process is scripted using a very basic bash script. All you have to do is clone our GitHub repo, login to your OpenShift cluster with a fresh running instance of Quay and run this script.
-
-```
-$ oc login
-$ git clone https://github.com/adnan-drina/quay-demo.git
-$ cd quay-demo
-$ ./0-setup-env.sh
-```
-
-The [0-setup-env.sh](./0-setup-env.sh) script will create a Quay demo user, all needed repositories and accounts used during the walkthrough. All user details are stored in ~/.quay-demo.env and sourced before each step in our walkthrough.
